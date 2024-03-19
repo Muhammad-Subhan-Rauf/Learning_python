@@ -1,3 +1,7 @@
+"""
+This file is used to retrieve the passwords of any wifi you have connected to (Ever)
+"""
+
 import subprocess
 
 data = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode('utf-8').split('\n')
