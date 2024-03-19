@@ -1,5 +1,6 @@
 """
-This file is used to retrieve the passwords of any wifi you have connected to (Ever)
+This file is used to retrieve the passwords of any wifi you have connected to (Ever). 
+(Found this on an instagram post i think. This is not mine but looked fun so tried it)
 """
 
 import subprocess
